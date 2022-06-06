@@ -1,0 +1,156 @@
+{% extends 'base2.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="banner-1">
+</section>
+
+
+
+
+<section id="contact">
+	<div class="container">
+	  <div class="col-md-8 col-md-offset-2">
+		<div class="heading">
+		  <h2>CONTACT <span>US</span></h2>
+		  <div class="line"></div>
+		  <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+			et dolore magna aliqua. Ut enim ad minim veniam</p>
+		</div>
+	  </div>
+	  <div class="text-center">
+		<div class="col-md-6 col-sm-6 contact-sec-1">
+		  <h4>CONTACT IN<span>FO</span></h4>
+		  <ul class="contact-form">
+			<li><i class="fa fa-map-marker"></i>
+			  <h6><strong>Address:</strong> Solusi University, P.O. Solusi, Bulawayo </h6>
+			</li>
+			<li><i class="fa fa-envelope"></i>
+			  <h6><strong>Mail Us:</strong> <a href="#">records@solusi.ac.zw</a></h6>
+			</li>
+			<li><i class="fa fa-phone"></i>
+			  <h6><strong>Phone:</strong> +263 292 887457 </h6>
+			</li>
+			<li><i class="fa fa-wechat"></i>
+			  <h6><strong>Website:</strong> <a href="#"> www.solusi.ac.zw
+		  </ul>
+		</div>
+		<div class="col-md-6 col-sm-6">
+		  <form id="main-contact-form" name="contact-form" method="post" action="#">
+			<div class="row  wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+			  <div class="col-sm-6">
+				<div class="form-group">
+				  <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+				</div>
+			  </div>
+			  <div class="col-sm-6">
+				<div class="form-group">
+				  <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+				</div>
+			  </div>
+			</div>
+			<div class="form-group">
+			  <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+			</div>
+			<div class="form-group">
+			  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
+			</div>
+			<a class="btn-send col-md-12 col-sm-12 col-xs-12" href="#">Send Now</a>
+		  </form>
+		</div>
+	  </div>
+	</div>
+  </section>
+<section class="contact py-5">
+    <div class="container py-md-4 mt-md-3">
+    
+    <div class="inner-sec-w3layouts-agileinfo mt-md-5 pt-5">
+    <div class="contact-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6297.34177476736!2d28.155409366758512!3d-20.19978513685155!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2szw!4v1650961483877!5m2!1sen!2szw" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    </div>
+    </div>
+    </section>
+
+<div class="container py-md-4 mt-md-3">
+	<p style="text-align: justify; text-justify: inter-word;">Solusi University has been brought closer to you through the multiple centers spread out across Zimbabwe, for a convenient and stress-free mode of education accessible to you right where you are.
+		You can visit us at the centers listed below.</p></div>
+    <section class="team py-5">
+		<div class="container py-md-4 mt-md-3">
+			<h3 class="heading-agileinfo">Our <span>Staff</span></h3>
+			<div class="row team-row-agileinfo mt-md-5 pt-5">
+				<div class="col-lg-3 col-md-6 col-sm-6 team-grids">
+					<div class="thumbnail team-agileits">
+						<img src="{% static 'images/bulawayo.png' %}" class="img-fluid" alt="" />
+						<div class="effectd-caption">
+							<h6 class="mb-3" style="color: black;">Bulawayo Solusi University Trimester Center</h6>
+							<div class="social-lsicon">
+								<p>2nd Floor Africa House,<br>
+									Fife Street & 10th Avenue<br>
+									Bulawayo<br>
+									Tel: 292-62195</p>
+							
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 team-grids">
+					<div class="thumbnail team-agileits">
+						<img src="{% static 'images/falls.png' %}" class="img-fluid" alt="" />
+						<div class="effectd-caption">
+							<h6 class="mb-3" style="color: black;">Vic Falls Solusi University Trimester Center</h6>
+							<div class="social-lsicon">
+								<p>
+									
+					Mkhosana Adventist High School<br>
+					Stand 5829 Mkhosana Township<br>
+					Victoria Falls <br>  
+					0832841832/0772477809
+								</p>
+							
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 team-grids">
+					<div class="thumbnail team-agileits">
+						<img src="{% static 'images/mutare.png' %}" class="img-fluid" alt="" />
+						<div class="effectd-caption">
+							<h6 class="mb-3" style="color: black;">Mutare Solusi University Block Centre</h6>
+							<div class="social-lsicon">
+								<p>
+									
+									Mutare Teacher’s College<br>
+									81 Chimanimani Road<br>
+									Mutare<br>
+									 0783833124
+								</p>
+							
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 team-grids">
+					<div class="thumbnail team-agileits">
+						<img src="{% static 'images/harare.png' %}" class="img-fluid" alt="" />
+						<div class="effectd-caption">
+							<h6 class="mb-3" style="color: black;">Harare Solusi University Trimester Center</h6>
+							<div class="social-lsicon">
+								<p>
+									7th Floor CABS Center<BR>
+									Jason Moyo Avenue/Sam Nujoma<BR>
+									Harare<BR>
+									Tel: 242-250779</p>
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <!--//contact-->
+{% endblock %}

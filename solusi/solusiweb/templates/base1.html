@@ -1,0 +1,543 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+{% load static %}
+<!DOCTYPE HTML>
+<html lang="zxx">
+
+<head>
+
+<!--Second Template-->
+<!--dropdown-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+		<!--dropdown-->
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/bootstrap.css' %}">
+<!--Stylesheets-->
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/style.css' %}">
+<!--Responsive-->
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/responsive.css' %}">
+<!--Animation-->
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/animate.css' %}">
+<!--Prettyphoto-->
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/prettyPhoto.css' %}">
+<!--Font-Awesome-->
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/font-awesome.css' %}">
+<!--Owl-Slider-->
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/owl.carousel.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/owl.theme.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'cosmic/css/owl.transitions.css' %}">
+
+<!--End Second template-->
+<title>Opsimathy an Education Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Opsimathy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script>
+	addEventListener("load", function () {
+		setTimeout(hideURLbar, 0);
+	}, false);
+
+	function hideURLbar() {
+		window.scrollTo(0, 1);
+	}
+</script>
+	<!-- Bootstrap Core CSS -->
+	<link href="{% static 'css/bootstrap.css' %}" rel='stylesheet' type='text/css' />
+	<link href="{% static 'css/style.css' %}" rel='stylesheet' type='text/css' />
+	<!-- font-awesome icons -->
+	<link href="{% static 'css/fontawesome-all.min.css' %}" rel='stylesheet' type='text/css' />
+	<!-- //Custom Theme files -->
+	<!-- online fonts -->
+	<!-- titles -->
+	<link href="//fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+	<!-- body -->
+	<link href="//fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
+</head>
+<body>
+	<!-- header -->
+	<header>
+	<div class="top">
+			<div class="container">
+				<div class="t-op row">
+				<div class="col-sm-6 top-left">
+					<ul>
+						<li>We Serve</li>
+						<li class="ml-3">
+						<i class="far fa-envelope"></i> <a href="mailto:pr@solusi.ac.zw">Click here for enquiries</a>
+					</li>
+						</ul>
+					</div>
+					<div class="col-sm-6 top-middle">
+						<ul>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!--<div class="container">
+			<nav class="navbar  navbar-expand-lg navbar-light ">
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+			   aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav  text-right  ml-lg-auto ">
+				<li class="nav-item mr-3 active">
+					<a class="nav-link  " href="{% url 'index' %}">Home
+					<span class="sr-only scroll">(current)</span>
+				</a>
+				</li>
+				<li class="nav-item  mr-3">
+				<a class="nav-link " href="{% url 'about' %}">About</a>
+				</li>
+				<li class="nav-item dropdown mr-3">
+				<a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+				   aria-expanded="false">
+				Administrators
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="{% url 'vice' %}">Vice Chancellor</a>
+				<a class="dropdown-item" href="{% url 'provice' %}">Pro Vice Chancellor</a>
+				<a class="dropdown-item" href="{% url 'daf' %}">Director of Financial Administration</a>
+				<a class="dropdown-item" href="{% url 'studentaff' %}">Director of Student Affairs</a>
+				<a class="dropdown-item" href="{% url 'register' %}">Registrar</a>
+				</div>
+				</li>
+				<li class="nav-item dropdown mr-3">
+				<a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+				   aria-expanded="false">
+				Faculties
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="{% url 'agric' %}">Agriculture, Science & Technology</a>
+				<a class="dropdown-item" href="{% url 'commerce' %}">Commerce</a>
+				<a class="dropdown-item" href="{% url 'education' %}">Education & Humanities</a>
+				<a class="dropdown-item" href="{% url 'health' %}">Health Professions</a>
+				<a class="dropdown-item" href="{% url 'theology' %}">Theology & Chaplaincy</a>
+				<a class="dropdown-item" href="{% url 'graduation' %}">Graduate Studies & Research Development</a>
+				</div>
+				</li>
+				<li class="nav-item dropdown mr-3">
+				<a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+				   aria-expanded="false">
+				Online Services
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="https://sis.solusi.ac.zw/" target="_blank" >Online Registration</a>
+				<a class="dropdown-item" href="https://www.topup.co.zw/pay-bill/solusi-university" target="_blank">Online Fees Payment</a>
+				<a class="dropdown-item" href="https://www.paynow.co.zw/Payment/BillPaymentLink/?q=aWQ9MjM1NCZhbW91bnQ9MC4wMCZhbW91bnRfcXVhbnRpdHk9MC4wMCZmMT0mbD0w" target="_blank">Other Fees Payment</a>
+				<a class="dropdown-item" href="https://moodle.solusi.ac.zw/" target="_blank">Elearning</a>
+				<a class="dropdown-item" href="https://sis.solusi.ac.zw/" target="_blank">Edurole</a>
+				<a class="dropdown-item" href="https://www.solusi.ac.zw/the-orb/" target="_blank">The Orb</a>
+				<a class="dropdown-item" href="https://mail.google.com/mail/u/0/" target="_blank">Email</a>
+				<a class="dropdown-item" href="https://www.solusi.ac.zw/student-handbook/" target="_blank">Student Handbook</a>
+				<a class="dropdown-item" href="https://www.solusi.ac.zw/university-events/" target="_blank">University Events</a>
+				</div>
+				</li>
+			
+				<li class="nav-item dropdown mr-3">
+					<a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+					   aria-expanded="false">
+					   Library
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="{% url 'library' %}">Faculty Resources</a>
+					<a class="dropdown-item" href="{% url 'studentlib' %}">Student Resources</a>
+					<a class="dropdown-item" href="{% url 'daf' %}">Director of Financial Administration</a>
+			
+					</div>
+					</li>
+
+				<li class="nav-item ">
+				<a class="nav-link " href="{% url 'contact' %}">contact</a>
+				</li>
+				<li class="nav-item  mr-3">
+				<a class="nav-link " href="{% url 'alumini' %}">Alumini</a>
+				</li>
+				</ul>
+				</div>
+			</nav>
+			
+			</div>-->
+			<div class="m-4">
+				<nav class=" navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+					<div class="container-fluid">
+						<a href="#" class="navbar-brand">Brand</a>
+						<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarCollapse">
+						 
+							<div class="navbar-nav ms-auto">
+								<a href="#" class="nav-item nav-link">Login</a>
+								<a href="#" class="nav-item nav-link active">Home</a>
+								<a href="#" class="nav-item nav-link">Profile</a>
+								<div class="nav-item dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Messages</a>
+									<div class="dropdown-menu">
+										<a href="#" class="dropdown-item">Inbox</a>
+										<a href="#" class="dropdown-item">Sent</a>
+										<a href="#" class="dropdown-item">Drafts</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+
+	<section id="slider">
+        <div id="home-carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="item active" style="background-image:url({% static 'cosmic/images/Slider/home2.png' %})">
+              <div class="carousel-caption container">
+                <div class="row">
+                  <div class="col-md-7 col-sm-12 col-xs-12">
+                    <h1>We Are Cosmix</h1>
+                    <h2>Creative Themes</h2>
+                    <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple pages also included in this theme with lots of CSS and JQuery animations</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item" style="background-image:url({% static 'cosmic/images/Slider/slide2.png' %})">
+              <div class="carousel-caption container">
+                <div class="row">
+                  <div class="col-md-7 col-sm-12 col-xs-12">
+                    <h1>We Are Cosmix</h1>
+                    <h2>Creative Themes</h2>
+                    <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple pages layouts also in this theme with lots of CSS and JQuery animations</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item" style="background-image:url({% static 'cosmic/images/Slider/slide3.png' %})">
+              <div class="carousel-caption container">
+                <div class="row">
+                   <div class="col-md-7 col-sm-12 col-xs-12">
+                    <h1>We Are Cosmix</h1>
+                    <h2>Creative Themes</h2>
+                    <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple page also included in this theme with lots of CSS and JQuery animations</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="home-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a> <a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a> </div>
+        </div>
+        <!--/#home-carousel-->
+      </section>
+	</header>
+
+
+
+      {% block content %}
+
+   
+
+   {% endblock %}
+  
+	<!-- //more -->
+<!--footer-->
+	<footer>
+		<div class="container py-md-4 mt-md-3">
+			<div class="row footer-top-w3layouts-agile py-5">
+				<div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+					<div class="footer-title">
+						<h3><span>About </span>Us</h3>
+					</div>
+					<div class="footer-text">
+						<p>
+							Solusi University, located 50 kilometres west of Bulawayo, Zimbabwe, is a co-educational institution, which was founded in 1894 as one of the first of the hundreds of Seventh-day Adventist mission stations. It was named after Chief Soluswe, near whose home the Mission was founded.</p>
+
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+					<div class="footer-title">
+						<h3><span>Our </span>Library</h3>
+					</div>
+					<ul class="footer_grid_list">
+					<li><i class="fa fa-arrow-right" aria-hidden="true"></i>
+						<a href="#" data-toggle="modal" data-target="#myModal">Ralph Watts Library</a>
+					</li>
+				
+					
+					
+					
+				</ul>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+					<div class="footer-title">
+						<h3><span>Quick </span>Links</h3>
+					</div>
+					<nav class="border-line">
+                        <ul class="nav flex-column">
+                           <li>
+                              <a href="{% url 'index' %}">Home </a>
+                           </li>
+                           <li>
+                              <a href="{% url 'about' %}">About</a>
+                           </li>
+						
+                           <li>
+                              <a href="{% url 'alumini' %}">Alumini</a>
+                           </li>
+                           <li>
+                              <a href="{% url 'contact' %}">Contact</a>
+                           </li>
+                        </ul>
+                     </nav>
+				</div>
+				
+			</div>
+		</div>
+	</footer>
+	<!-- //footer-->
+	<div class="copyright py-3">
+		<div class="container">
+			<div class="copyrighttop">
+				<ul>
+					<li>
+						<h4>Follow us on:</h4>
+					</li>
+					<li>
+						<a class="facebook" href="#">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li>
+						<a class="facebook" href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a class="facebook" href="#">
+							<i class="fab fa-google-plus-g"></i>
+						</a>
+					</li>
+					<li>
+						<a class="facebook" href="#">
+							<i class="fab fa-pinterest-p"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="copyrightbottom">
+				<p>© 2018 Opsimathy. All Rights Reserved | Design by
+					<a href="http://w3layouts.com/">W3layouts</a>
+				</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Ralph Watts Library</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		 <div class="agileits-w3layouts-info">
+			<img src="{% static 'images/g6.jpg' %}" class="img-fluid" alt="" />
+			<p>
+				
+The Solusi University—Ralph Watts Library has a primary responsibility to support
+Instructional, research and spiritual programs of the University—through the acquisition,
+organization, maintenance, and preservation/conservation of appropriate print and non-print
+electronic and archival information resources and the retrieval/dissemination of the resources.
+ </p>
+		</div>
+	</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- //Modal -->
+<!-- js-->
+	<script src="{% static 'js/jquery-2.2.3.min.js' %}"></script>
+<!-- js-->
+<!-- clients -->
+	<script type="text/javascript">
+					$(window).load(function() {
+						$("#flexiselDemo1").flexisel({
+							visibleItems: 2,
+							animationSpeed: 1000,
+							autoPlay:false,
+							autoPlaySpeed: 2500,    		
+							pauseOnHover: true,
+							enableResponsiveBreakpoints: true,
+							responsiveBreakpoints: { 
+								portrait: { 
+									changePoint:480,
+									visibleItems: 1
+								}, 
+								landscape: { 
+									changePoint:640,
+									visibleItems:1
+								},
+								tablet: { 
+									changePoint:768,
+									visibleItems: 1
+								}
+							}
+						});
+						
+					});
+			</script>
+			<script type="text/javascript" src="{% static 'js/jquery.flexisel.js' %}"></script>
+	<!-- //clients -->
+<!-- stats -->
+	<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+	<script src="{% static 'js/jquery.countup.js' %}"></script>
+		<script>
+			$('.counter').countUp();
+		</script>
+<!-- //stats -->
+	
+	<!-- Bootstrap Core JavaScript -->
+	<script src="{% static 'js/bootstrap.js' %}">
+	</script>
+	<!-- //Bootstrap Core JavaScript -->
+
+
+    <!--second template-->
+<script type="text/javascript" src="{% static 'cosmic/js/jquery.min.js' %}"></script>
+<!--Boostrap-Jquery-->
+<script type="text/javascript" src="{% static 'cosmic/js/bootstrap.js' %}"></script>
+<!--Preetyphoto-Jquery-->
+<script type="text/javascript" src="{% static 'cosmic/js/jquery.prettyPhoto.js' %}"></script>
+<!--NiceScroll-Jquery-->
+<script type="text/javascript" src="{% static 'cosmic/js/jquery.nicescroll.js' %}"></script>
+<script type="text/javascript" src="{% static 'cosmic/js/waypoints.min.js' %}"></script>
+<!--Isotopes-->
+<script type="text/javascript" src="{% static 'cosmic/js/jquery.isotope.js' %}"></script>
+<!--Wow-Jquery-->
+<script type="text/javascript" src="{% static 'cosmic/js/wow.js' %}"></script>
+<!--Count-Jquey-->
+<script type="text/javascript" src="{% static 'cosmic/js/jquery.countTo.js' %}"></script>
+<script type="text/javascript" src="{% static 'cosmic/js/jquery.inview.min.js' %}"></script>
+<!--Owl-Crousels-Jqury-->
+<script type="text/javascript" src="{% static 'cosmic/js/owl.carousel.js' %}"></script>
+<!--Main-Scripts-->
+<script type="text/javascript" src="{% static 'cosmic/js/script.js' %}"></script>
+</body>
+</html>
+
+<!-- Hosting24 Analytics Code -->
+<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--	<style>
+			body {
+			  margin: 0;
+			  font-size: 28px;
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+			
+			.img {
+			  background-color: #f1f1f1;
+			  padding: 0px;
+			  text-align: left;
+			  margin-left: 2em;
+			}
+			
+			#navbar {
+			  overflow: hidden;
+			  background-color: #333;
+			}
+			
+			#navbar a {
+			  float: right;
+			  display: block;
+			  color: #f2f2f2;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			  font-size: 17px;
+			}
+			
+			#navbar a:hover {
+			  background-color: #ddd;
+			  color: black;
+			}
+			
+			#navbar a.active {
+			  background-color: #cc3333;
+			  color: white;
+			}
+			
+			.content {
+			  padding: 16px;
+			}
+			
+			.sticky {
+			  position: fixed;
+			  top: 0;
+			  width: 100%;
+			}
+			
+			.sticky + .content {
+			  padding-top: 60px;
+			}
+			</style>
+
+
+		<div class="header">
+		<img src="{% static 'images/Solusi.png' %}" width="100" height="60" alt="" class="img-section4 img-fluid">
+		  </div>
+		  
+		  <div id="navbar">
+			  
+			<a  href="{% url 'about' %}">About</a>
+			<a class="active" href="{% url 'index' %}">Home</a>
+			
+
+			
+		  </div>
+		  
+		  
+		  
+		  <script>
+		  window.onscroll = function() {myFunction()};
+		  
+		  var navbar = document.getElementById("navbar");
+		  var sticky = navbar.offsetTop;
+		  
+		  function myFunction() {
+			if (window.pageYOffset >= sticky) {
+			  navbar.classList.add("sticky")
+			} else {
+			  navbar.classList.remove("sticky");
+			}
+		  }
+		  </script>-->
